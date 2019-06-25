@@ -1,5 +1,8 @@
 <pre>
 <%= Cowsay.say("Hi Blabbo Rex!!", "Cow") %>
+<% for i in 0..(ENV['TIMESZZZ'] ? ENV['TIMESZZZ'].to_i : 2) do %>
+  <p>Hello World #<%= i %>!</p>
+<% end %>
 </pre>
 <div class="jumbotron text-center">
   <div class="container">
